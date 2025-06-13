@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Alicia & Kevin Alfonso | Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Alma Alcia & Kevin Alfonso</a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#our-story">Nuestra Historia</a></li>
+                <li><a href="#event-details">Detalles del Evento</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#registry">Registro</a></li>
+                <li><a href="#location">Ubicacion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Music Player -->
+    <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">
+        <i class="fas fa-music"></i>
+    </button>
+
+
+    <audio id="bgMusic" loop>
+        <source src="placeholder.mp3" type="audio/mp3">
+    </audio>
+
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">Alma Alicia & Kevin Arellano</h1>
+            <div class="hero-divider" data-aos="fade-up" data-aos-delay="400"></div>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">Nos estaremos casando!!</p>
+            <p class="hero-date" data-aos="fade-up" data-aos-delay="800">June 15, 2027</p>
+            <a href="#rsvp" class="hero-button" data-aos="fade-up" data-aos-delay="1000">RSVP Now</a>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="our-story" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Julio  10, 2019</div>
+                        <h3 class="timeline-title">First Meeting</h3>
+                        <p class="timeline-description">Nos conocimos gracias a Seminario y de ahi empezamos a ver lo mejor del otro.</p>
+                        <div class="timeline-image">
+                            <img src="https://placeholder.svg?height=400&width=600" alt="First Meeting">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Septiembre 7, 2021</div>
+                        <h3 class="timeline-title">Primera Cita</h3>
+                        <p class="timeline-description">Our first official date was a magical.</p>
+                        <div class="timeline-image">
+                            <img src="https://placeholder.svg?height=400&width=600" alt="First Date">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 15, 2021</div>
+                        <h3 class="timeline-title">Vacation Together</h3>
+                        <p class="timeline-description">Our first trip together to the beautiful beaches of Hawaii.</p>
+                        <div class="timeline-image">
+                            <img src="https://placeholder.svg?height=400&width=600" alt="Vacation Together">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">February 14, 2023</div>
+                        <h3 class="timeline-title">The Proposal</h3>
+                        <p class="timeline-description">Kevin proposed during a romantic Valentine's Day dinner.</p>
+                        <div class="timeline-image">
+                            <img src="https://placeholder.svg?height=400&width=600" alt="The Proposal">
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Junio 15, 2027</div>
+                        <h3 class="timeline-title">Wedding Day</h3>
+                        <p class="timeline-description">The day we officially begin our journey as husband and wife.</p>
+                        <div class="timeline-image">
+                            <img src="https://placeholder.svg?height=400&width=600" alt="Wedding Day">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="event-details" class="section">
+        <div class="container">
+            <h2 class="section-title">Detalles del Evento</h2>
+            <div class="event-cards">
+                <div class="event-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="event-title">Ceremonia</h3>
+                    <div class="event-info">
+                        <p><i class="fas fa-calendar"></i> June 15, 2027</p>
+                        <p><i class="fas fa-clock"></i> 2:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> La Iglesia de Jesucrito de los Santos de los Ultimos Dias </p>
+                        <p class="event-address">Cuauhtémoc 700, 35230 Bermejillo, Dgo.</p>
+                    </div>
+                    <p class="event-details">Doors open at 1:30 PM. Please arrive early to be seated.</p>
+                </div>
+                <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="event-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="event-title">Recepcion</h3>
+                    <div class="event-info">
+                        <p><i class="fas fa-calendar"></i> June 15, 2025</p>
+                        <p><i class="fas fa-clock"></i> 5:00 PM</p>
+                        <p><i class="fas fa-map-marker-alt"></i> The Grand Ballroom</p>
+                        <p class="event-address">456 Luxury Avenue, New York, NY</p>
+                    </div>
+                    <p class="event-details">Cocktail hour followed by dinner and dancing until midnight.</p>
+                </div>
+                <div class="event-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="event-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="event-title">Codigo de vestimenta</h3>
+                    <p class="event-details">Formal / Black Tie Optional</p>
+                    <p class="event-extra-info">The venue is air-conditioned. Ladies, consider heel protectors for outdoor photos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Couple at the beach" onclick="openLightbox(0)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Engagement photo" onclick="openLightbox(1)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Couple hiking" onclick="openLightbox(2)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="250">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Date night" onclick="openLightbox(3)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="First vacation together" onclick="openLightbox(4)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="350">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Holiday celebration" onclick="openLightbox(5)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Proposal moment" onclick="openLightbox(6)">
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="450">
+                    <img src="https://placeholder.svg?height=600&width=800" alt="Family gathering" onclick="openLightbox(7)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="/placeholder.svg" alt="">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="section">
+        <div class="container">
+            <h2 class="section-title">RSVP</h2>
+            <div class="rsvp-container" data-aos="fade-up">
+                <form id="rsvpForm" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Will you be attending?</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="attending-yes" name="attending" value="yes">
+                                <label for="attending-yes">Joyfully Accept</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="attending-no" name="attending" value="no">
+                                <label for="attending-no">Regretfully Decline</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="attending-options" style="display: none;">
+                        <div class="form-group">
+                            <label for="guests">Number of Guests (Including Yourself)</label>
+                            <select id="guests" name="guests">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="meal">Meal Preference</label>
+                            <select id="meal" name="meal">
+                                <option value="">Select meal preference</option>
+                                <option value="beef">Beef</option>
+                                <option value="chicken">Chicken</option>
+                                <option value="fish">Fish</option>
+                                <option value="vegetarian">Vegetarian</option>
+                                <option value="vegan">Vegan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message to the Couple (Optional)</label>
+                        <textarea id="message" name="message" placeholder="Share your well wishes or any special requirements..." rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span id="submit-text">Submit RSVP</span>
+                        <span id="submit-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Submitting...
+                        </span>
+                    </button>
+                </form>
+                <div id="rsvp-success" class="rsvp-success" style="display: none;">
+                    <div class="success-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Thank You!</h3>
+                    <p>Your RSVP has been submitted successfully. We look forward to celebrating with you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gift Registry Section -->
+    <section id="registry" class="section">
+        <div class="container">
+            <h2 class="section-title">Registro de Regalos</h2>
+            <div class="registry-intro">
+                <p>Your presence at our wedding is the greatest gift of all. However, if you wish to honor us with a gift, we've registered at the following places:</p>
+            </div>
+            <div class="registry-cards">
+                <div class="registry-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="registry-logo">
+                        <img src="https://placeholder.svg?height=100&width=200" alt="Amazon logo">
+                    </div>
+                    <h3>Amazon</h3>
+                    <p>Find a variety of items for our new home.</p>
+                    <a href="https://www.amazon.com/wedding/registry" target="_blank" rel="noopener noreferrer">
+                        View Registry <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="registry-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="registry-logo">
+                        <img src="https://placeholder.svg?height=100&width=200" alt="Crate & Barrel logo">
+                    </div>
+                    <h3>Crate & Barrel</h3>
+                    <p>Help us furnish our living space with quality items.</p>
+                    <a href="https://www.crateandbarrel.com/gift-registry/" target="_blank" rel="noopener noreferrer">
+                        View Registry <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="registry-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="registry-logo">
+                        <img src="https://placeholder.svg?height=100&width=200" alt="Honeymoon Fund logo">
+                    </div>
+                    <h3>Fondos para la luna de miel</h3>
+                    <p>Contribute to our dream honeymoon in Bali.</p>
+                    <a href="https://www.honeyfund.com" target="_blank" rel="noopener noreferrer">
+                        View Registry <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="registry-quote">
+                <p>"The greatest gift of all is having you share in our special day."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section">
+        <div class="container">
+            <h2 class="section-title">Ubicacion</h2>
+            <div class="location-cards">
+                <div class="location-card" data-aos="fade-right">
+                    <h3><i class="fas fa-map-marker-alt"></i> Ceremonia</h3>
+                    <p class="location-name">Cuauhtémoc 700, 35230 Bermejillo, Dgo.</p>
+                    <p class="location-address">123 Church Street, New York, NY 10001</p>
+                    <div class="location-buttons">
+                        <a href="https://maps.app.goo.gl/y8kM4dVxW68ANmQu5" target="_blank" class="location-button">
+                            <i class="fas fa-location-arrow"></i> Google Maps
+                        </a>
+                        <a href="https://ul.waze.com/ul?ll=25.88458165%2C-103.61775756&navigate=yes" target="_blank" class="location-button">
+                            <i class="fas fa-location-arrow"></i> Waze
+                        </a>
+                    </div>
+                </div>
+                <div class="location-card" data-aos="fade-left">
+                    <h3><i class="fas fa-map-marker-alt"></i> Recepcion</h3>
+                    <p class="location-name">The Grand Ballroom</p>
+                    <p class="location-address">456 Luxury Avenue, New York, NY 10001</p>
+                    <div class="location-buttons">
+                        <a href="https://maps.google.com/?q=Grand+Ballroom+New+York" target="_blank" class="location-button">
+                            <i class="fas fa-location-arrow"></i> Google Maps
+                        </a>
+                        <a href="https://www.waze.com/ul?ll=40.7128%2C-74.0060&navigate=yes" target="_blank" class="location-button">
+                            <i class="fas fa-location-arrow"></i> Waze
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container" data-aos="fade-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634.3532288822864!2d-103.61816323630048!3d25.884654980694826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8691d6bea485246b%3A0xbfb9835c0cb68f59!2sLa%20Iglesia%20de%20Jesucristo%20de%20los%20Santos%20de%20los%20%C3%9Altimos%20D%C3%ADas!5e0!3m2!1ses-419!2smx!4v1749787460340!5m2!1ses-419!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+                </div>
+            <div class="parking-info" data-aos="fade-up">
+                <h3>Informacion de Estacionamiento</h3>
+                <p>Valet parking will be available at both venues. Alternatively, there are several public parking garages within walking distance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">Alma Alicia & Kevin Alfonso</div>
+            <div class="footer-divider">
+                <div class="divider-line"></div>
+                <i class="fas fa-heart"></i>
+                <div class="divider-line"></div>
+            </div>
+            <p class="footer-message">Thank you for being part of our special day</p>
+            <p class="footer-copyright">&copy; <span id="currentYear"></span> Alma Alicia & Kevin Alfonso Wedding. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
